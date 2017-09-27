@@ -6,5 +6,5 @@ create_larevel_env() {
 
 generate_laravel_key() {
     cd "$build_dir"
-    /app/.heroku/php-min/bin/php artisan key:generate
+    php artisan key:generate
 }
